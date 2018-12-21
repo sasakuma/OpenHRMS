@@ -1,0 +1,143 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* oh_employee_documents_expiry
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-21 03:00+0000\n"
+"PO-Revision-Date: 2018-12-21 11:04+0800\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: zh_CN\n"
+"X-Generator: Poedit 2.2\n"
+
+#. module: oh_employee_documents_expiry
+#: model:ir.model.fields,field_description:oh_employee_documents_expiry.field_hr_employee__document_count
+msgid "# Documents"
+msgstr "# 文档"
+
+#. module: oh_employee_documents_expiry
+#: code:addons/oh_employee_documents_expiry/models/employee_documents.py:92
+#, python-format
+msgid ""
+"<p class=\"oe_view_nocontent_create\">\n"
+"                           Click to Create for New Documents\n"
+"                        </p>"
+msgstr ""
+"<p class=\"oe_view_nocontent_create\">\n"
+"                           单击以创建新文档\n"
+"                        </p>"
+
+#. module: oh_employee_documents_expiry
+#: model:ir.model,name:oh_employee_documents_expiry.model_ir_attachment
+#: model:ir.model.fields,field_description:oh_employee_documents_expiry.field_hr_employee_document__doc_attachment_id
+#: model:ir.model.fields,field_description:oh_employee_documents_expiry.field_ir_attachment__doc_attach_rel
+msgid "Attachment"
+msgstr "附件"
+
+#. module: oh_employee_documents_expiry
+#: model:ir.model.fields,field_description:oh_employee_documents_expiry.field_hr_employee_document__create_uid
+msgid "Created by"
+msgstr "创建人"
+
+#. module: oh_employee_documents_expiry
+#: model:ir.model.fields,field_description:oh_employee_documents_expiry.field_hr_employee_document__create_date
+msgid "Created on"
+msgstr "创建时间"
+
+#. module: oh_employee_documents_expiry
+#: model:ir.model.fields,field_description:oh_employee_documents_expiry.field_hr_employee_document__description
+#: model_terms:ir.ui.view,arch_db:oh_employee_documents_expiry.employee_document_form_view
+msgid "Description"
+msgstr "说明"
+
+#. module: oh_employee_documents_expiry
+#: model:ir.model.fields,field_description:oh_employee_documents_expiry.field_hr_employee_document__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: oh_employee_documents_expiry
+#: model:ir.model.fields,field_description:oh_employee_documents_expiry.field_hr_employee_document__name
+msgid "Document Number"
+msgstr "文件编号"
+
+#. module: oh_employee_documents_expiry
+#: code:addons/oh_employee_documents_expiry/models/employee_documents.py:45
+#, python-format
+msgid "Document-%s Expired On %s"
+msgstr "文档-%s 已过期 %s"
+
+#. module: oh_employee_documents_expiry
+#: code:addons/oh_employee_documents_expiry/models/employee_documents.py:85
+#: model_terms:ir.ui.view,arch_db:oh_employee_documents_expiry.hr_employee_document_inherit_form_view
+#, python-format
+msgid "Documents"
+msgstr "文档"
+
+#. module: oh_employee_documents_expiry
+#: model:ir.model,name:oh_employee_documents_expiry.model_hr_employee
+msgid "Employee"
+msgstr "员工"
+
+#. module: oh_employee_documents_expiry
+#: model:ir.actions.server,name:oh_employee_documents_expiry.employee_data_reminder_ir_actions_server
+#: model:ir.cron,cron_name:oh_employee_documents_expiry.employee_data_reminder
+#: model:ir.cron,name:oh_employee_documents_expiry.employee_data_reminder
+msgid "Employee Document Expiration"
+msgstr "员工文档过期"
+
+#. module: oh_employee_documents_expiry
+#: model:ir.model.fields,field_description:oh_employee_documents_expiry.field_hr_employee_document__employee_ref
+msgid "Employee Ref"
+msgstr "员工参考"
+
+#. module: oh_employee_documents_expiry
+#: model:ir.model.fields,field_description:oh_employee_documents_expiry.field_hr_employee_document__expiry_date
+msgid "Expiry Date"
+msgstr "截止日期"
+
+#. module: oh_employee_documents_expiry
+#: model:ir.model,name:oh_employee_documents_expiry.model_hr_employee_document
+msgid "HR Employee Documents"
+msgstr "员工文件"
+
+#. module: oh_employee_documents_expiry
+#: model:ir.model.fields,field_description:oh_employee_documents_expiry.field_hr_employee_document__id
+msgid "ID"
+msgstr ""
+
+#. module: oh_employee_documents_expiry
+#: model:ir.model.fields,field_description:oh_employee_documents_expiry.field_hr_employee_document__issue_date
+msgid "Issue Date"
+msgstr "发行日期"
+
+#. module: oh_employee_documents_expiry
+#: model:ir.model.fields,field_description:oh_employee_documents_expiry.field_hr_employee_document____last_update
+msgid "Last Modified on"
+msgstr "最后修改日"
+
+#. module: oh_employee_documents_expiry
+#: model:ir.model.fields,field_description:oh_employee_documents_expiry.field_hr_employee_document__write_uid
+msgid "Last Updated by"
+msgstr "最后更新者"
+
+#. module: oh_employee_documents_expiry
+#: model:ir.model.fields,field_description:oh_employee_documents_expiry.field_hr_employee_document__write_date
+msgid "Last Updated on"
+msgstr "最后更新时间"
+
+#. module: oh_employee_documents_expiry
+#: model:ir.model.fields,help:oh_employee_documents_expiry.field_hr_employee_document__doc_attachment_id
+msgid "You can attach the copy of your document"
+msgstr "您可以附上您的文档的副本"
+
+#. module: oh_employee_documents_expiry
+#: model:ir.model.fields,help:oh_employee_documents_expiry.field_hr_employee_document__name
+msgid "You can give yourDocument number."
+msgstr "你可以给你的文件号码。"

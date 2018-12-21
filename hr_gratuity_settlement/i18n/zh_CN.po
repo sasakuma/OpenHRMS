@@ -1,0 +1,483 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* hr_gratuity_settlement
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-21 04:21+0000\n"
+"PO-Revision-Date: 2018-12-21 12:31+0800\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: zh_CN\n"
+"X-Generator: Poedit 2.2\n"
+
+#. module: hr_gratuity_settlement
+#: code:addons/hr_gratuity_settlement/models/employee_gratuity.py:50
+#: code:addons/hr_gratuity_settlement/models/other_settlements.py:51
+#, python-format
+msgid "A Settlement request is already processed for this employee"
+msgstr "已为此员工处理结算请求"
+
+#. module: hr_gratuity_settlement
+#: model:ir.model.fields,field_description:hr_gratuity_settlement.field_hr_gratuity__message_needaction
+#: model:ir.model.fields,field_description:hr_gratuity_settlement.field_other_settlements__message_needaction
+msgid "Action Needed"
+msgstr "需要行动"
+
+#. module: hr_gratuity_settlement
+#: model:ir.model.fields,field_description:hr_gratuity_settlement.field_hr_gratuity__activity_ids
+#: model:ir.model.fields,field_description:hr_gratuity_settlement.field_other_settlements__activity_ids
+msgid "Activities"
+msgstr "活动"
+
+#. module: hr_gratuity_settlement
+#: model:ir.model.fields,field_description:hr_gratuity_settlement.field_hr_gratuity__activity_state
+#: model:ir.model.fields,field_description:hr_gratuity_settlement.field_other_settlements__activity_state
+msgid "Activity State"
+msgstr "活动状态"
+
+#. module: hr_gratuity_settlement
+#: code:addons/hr_gratuity_settlement/models/employee_gratuity.py:98
+#: code:addons/hr_gratuity_settlement/models/other_settlements.py:96
+#, python-format
+msgid "Allowance value should be numeric !!"
+msgstr "容限值应该是数字!!"
+
+#. module: hr_gratuity_settlement
+#: selection:hr.gratuity,state:0 selection:other.settlements,state:0
+msgid "Approved"
+msgstr "批准"
+
+#. module: hr_gratuity_settlement
+#: model:ir.model.fields,field_description:hr_gratuity_settlement.field_hr_gratuity__message_attachment_count
+#: model:ir.model.fields,field_description:hr_gratuity_settlement.field_other_settlements__message_attachment_count
+msgid "Attachment Count"
+msgstr "附件数量"
+
+#. module: hr_gratuity_settlement
+#: model_terms:ir.ui.view,arch_db:hr_gratuity_settlement.employee_gratuity_form
+#: model_terms:ir.ui.view,arch_db:hr_gratuity_settlement.other_settlements_form
+msgid "Cancel"
+msgstr "取消"
+
+#. module: hr_gratuity_settlement
+#: selection:hr.gratuity,state:0 selection:other.settlements,state:0
+msgid "Cancelled"
+msgstr "取消"
+
+#. module: hr_gratuity_settlement
+#: selection:other.settlements,reason:0
+msgid "Case of Death"
+msgstr "离职原因？？"
+
+#. module: hr_gratuity_settlement
+#: model:ir.model.fields,field_description:hr_gratuity_settlement.field_hr_gratuity__company_id
+#: model:ir.model.fields,field_description:hr_gratuity_settlement.field_other_settlements__company_id
+msgid "Company"
+msgstr "公司"
+
+#. module: hr_gratuity_settlement
+#: model_terms:ir.ui.view,arch_db:hr_gratuity_settlement.employee_gratuity_form
+#: model_terms:ir.ui.view,arch_db:hr_gratuity_settlement.other_settlements_form
+msgid "Confirm"
+msgstr "确认"
+
+#. module: hr_gratuity_settlement
+#: model:ir.model.fields,field_description:hr_gratuity_settlement.field_hr_gratuity__create_uid
+#: model:ir.model.fields,field_description:hr_gratuity_settlement.field_other_settlements__create_uid
+msgid "Created by"
+msgstr "创建人"
+
+#. module: hr_gratuity_settlement
+#: model:ir.model.fields,field_description:hr_gratuity_settlement.field_hr_gratuity__create_date
+#: model:ir.model.fields,field_description:hr_gratuity_settlement.field_other_settlements__create_date
+msgid "Created on"
+msgstr "创建时间"
+
+#. module: hr_gratuity_settlement
+#: model:ir.model.fields,field_description:hr_gratuity_settlement.field_hr_gratuity__currency_id
+#: model:ir.model.fields,field_description:hr_gratuity_settlement.field_other_settlements__currency_id
+msgid "Currency"
+msgstr "币种"
+
+#. module: hr_gratuity_settlement
+#: model:ir.model.fields,field_description:hr_gratuity_settlement.field_hr_gratuity__allowance
+#: model:ir.model.fields,field_description:hr_gratuity_settlement.field_other_settlements__allowance
+msgid "Dearness Allowance"
+msgstr "离职补贴"
+
+#. module: hr_gratuity_settlement
+#: selection:other.settlements,reason:0
+msgid "Disabled due to Sick or Accident"
+msgstr "因病或意外而致残？！"
+
+#. module: hr_gratuity_settlement
+#: model:ir.model.fields,field_description:hr_gratuity_settlement.field_hr_gratuity__display_name
+#: model:ir.model.fields,field_description:hr_gratuity_settlement.field_other_settlements__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: hr_gratuity_settlement
+#: selection:hr.gratuity,state:0 selection:other.settlements,state:0
+msgid "Draft"
+msgstr "草稿"
+
+#. module: hr_gratuity_settlement
+#: model:ir.model.fields,field_description:hr_gratuity_settlement.field_hr_gratuity__employee_name
+#: model:ir.model.fields,field_description:hr_gratuity_settlement.field_other_settlements__employee_name
+#: model_terms:ir.ui.view,arch_db:hr_gratuity_settlement.employee_gratuity_form
+#: model_terms:ir.ui.view,arch_db:hr_gratuity_settlement.other_settlements_form
+msgid "Employee"
+msgstr "员工"
+
+#. module: hr_gratuity_settlement
+#: model:ir.model,name:hr_gratuity_settlement.model_hr_gratuity
+#: model_terms:ir.ui.view,arch_db:hr_gratuity_settlement.employee_gratuity_form
+#: model_terms:ir.ui.view,arch_db:hr_gratuity_settlement.employee_gratuity_tree
+#: model_terms:ir.ui.view,arch_db:hr_gratuity_settlement.other_settlements_tree
+msgid "Employee Gratuity"
+msgstr "员工酬金"
+
+#. module: hr_gratuity_settlement
+#: model:ir.ui.menu,name:hr_gratuity_settlement.employee_gratuity
+msgid "Employee Settlement"
+msgstr "员工结算"
+
+#. module: hr_gratuity_settlement
+#: model_terms:ir.ui.view,arch_db:hr_gratuity_settlement.other_settlements_form
+msgid "Employee Settlements"
+msgstr "员工结算"
+
+#. module: hr_gratuity_settlement
+#: code:addons/hr_gratuity_settlement/models/other_settlements.py:90
+#, python-format
+msgid "Employee Working Period is less than 1 Year"
+msgstr "员工工作时间少于1年"
+
+#. module: hr_gratuity_settlement
+#: code:addons/hr_gratuity_settlement/models/employee_gratuity.py:66
+#, python-format
+msgid "Employee Working Period is less than 5 Year"
+msgstr "员工工作时间少于5年"
+
+#. module: hr_gratuity_settlement
+#: model:ir.model.fields,field_description:hr_gratuity_settlement.field_hr_gratuity__message_follower_ids
+#: model:ir.model.fields,field_description:hr_gratuity_settlement.field_other_settlements__message_follower_ids
+msgid "Followers"
+msgstr "关注者"
+
+#. module: hr_gratuity_settlement
+#: model:ir.model.fields,field_description:hr_gratuity_settlement.field_hr_gratuity__message_channel_ids
+#: model:ir.model.fields,field_description:hr_gratuity_settlement.field_other_settlements__message_channel_ids
+msgid "Followers (Channels)"
+msgstr "关注者(渠道)"
+
+#. module: hr_gratuity_settlement
+#: model:ir.model.fields,field_description:hr_gratuity_settlement.field_hr_gratuity__message_partner_ids
+#: model:ir.model.fields,field_description:hr_gratuity_settlement.field_other_settlements__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "关注者(业务伙伴)"
+
+#. module: hr_gratuity_settlement
+#: model:ir.ui.menu,name:hr_gratuity_settlement.gratuity_creation
+msgid "Gratuity"
+msgstr "酬金"
+
+#. module: hr_gratuity_settlement
+#: model:ir.model.fields,field_description:hr_gratuity_settlement.field_hr_gratuity__gratuity_amount
+#: model:ir.model.fields,field_description:hr_gratuity_settlement.field_other_settlements__gratuity_amount
+msgid "Gratuity Payable"
+msgstr "应付酬金"
+
+#. module: hr_gratuity_settlement
+#: model:ir.actions.act_window,name:hr_gratuity_settlement.action_employee_gratuity
+msgid "Gratuity Settlement"
+msgstr "酬金结算"
+
+#. module: hr_gratuity_settlement
+#: model:ir.model.fields,help:hr_gratuity_settlement.field_other_settlements__gratuity_amount
+msgid "Gratuity is calculated based on \t\t\t\t\t\t\tthe equation Last salary * Number of years of service * 15 / 26 "
+msgstr "酬金是根据公式计算 \t\t\t\t\t\t\t最后一次工资 * 服务年限 * 15/26"
+
+#. module: hr_gratuity_settlement
+#: model:ir.model.fields,help:hr_gratuity_settlement.field_hr_gratuity__gratuity_amount
+msgid "Gratuity is calculated based on the equation Last salary * Number of years of service * 15 / 26 "
+msgstr "酬金是根据公式计算的最后一次工资 * 服务年限 * 15/26"
+
+#. module: hr_gratuity_settlement
+#: model:ir.model.fields,field_description:hr_gratuity_settlement.field_hr_gratuity__id
+#: model:ir.model.fields,field_description:hr_gratuity_settlement.field_other_settlements__id
+msgid "ID"
+msgstr ""
+
+#. module: hr_gratuity_settlement
+#: model:ir.model.fields,help:hr_gratuity_settlement.field_hr_gratuity__message_unread
+#: model:ir.model.fields,help:hr_gratuity_settlement.field_other_settlements__message_unread
+msgid "If checked new messages require your attention."
+msgstr "查看是否有需要留意的新消息。"
+
+#. module: hr_gratuity_settlement
+#: model:ir.model.fields,help:hr_gratuity_settlement.field_hr_gratuity__message_needaction
+#: model:ir.model.fields,help:hr_gratuity_settlement.field_other_settlements__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "如果勾选此项，有新消息会提醒你"
+
+#. module: hr_gratuity_settlement
+#: model:ir.model.fields,help:hr_gratuity_settlement.field_hr_gratuity__message_has_error
+#: model:ir.model.fields,help:hr_gratuity_settlement.field_other_settlements__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr "如果勾选此项， 某些消息将会产生传递错误。"
+
+#. module: hr_gratuity_settlement
+#: model:ir.model.fields,field_description:hr_gratuity_settlement.field_hr_gratuity__message_is_follower
+#: model:ir.model.fields,field_description:hr_gratuity_settlement.field_other_settlements__message_is_follower
+msgid "Is Follower"
+msgstr "是关注者"
+
+#. module: hr_gratuity_settlement
+#: model:ir.model.fields,field_description:hr_gratuity_settlement.field_hr_gratuity__joined_date
+#: model:ir.model.fields,field_description:hr_gratuity_settlement.field_other_settlements__joined_date
+msgid "Joined Date"
+msgstr "入职日期"
+
+#. module: hr_gratuity_settlement
+#: model:ir.model.fields,field_description:hr_gratuity_settlement.field_hr_gratuity____last_update
+#: model:ir.model.fields,field_description:hr_gratuity_settlement.field_other_settlements____last_update
+msgid "Last Modified on"
+msgstr "最后修改日"
+
+#. module: hr_gratuity_settlement
+#: model:ir.model.fields,field_description:hr_gratuity_settlement.field_hr_gratuity__last_month_salary
+#: model:ir.model.fields,field_description:hr_gratuity_settlement.field_other_settlements__last_month_salary
+msgid "Last Salary"
+msgstr "最后薪酬"
+
+#. module: hr_gratuity_settlement
+#: model:ir.model.fields,field_description:hr_gratuity_settlement.field_hr_gratuity__write_uid
+#: model:ir.model.fields,field_description:hr_gratuity_settlement.field_other_settlements__write_uid
+msgid "Last Updated by"
+msgstr "最后更新者"
+
+#. module: hr_gratuity_settlement
+#: model:ir.model.fields,field_description:hr_gratuity_settlement.field_hr_gratuity__write_date
+#: model:ir.model.fields,field_description:hr_gratuity_settlement.field_other_settlements__write_date
+msgid "Last Updated on"
+msgstr "最后更新时间"
+
+#. module: hr_gratuity_settlement
+#: model:ir.model.fields,field_description:hr_gratuity_settlement.field_hr_gratuity__message_main_attachment_id
+#: model:ir.model.fields,field_description:hr_gratuity_settlement.field_other_settlements__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "附件"
+
+#. module: hr_gratuity_settlement
+#: model:ir.model.fields,field_description:hr_gratuity_settlement.field_hr_gratuity__message_has_error
+#: model:ir.model.fields,field_description:hr_gratuity_settlement.field_other_settlements__message_has_error
+msgid "Message Delivery error"
+msgstr "消息递送错误"
+
+#. module: hr_gratuity_settlement
+#: model:ir.model.fields,field_description:hr_gratuity_settlement.field_hr_gratuity__message_ids
+#: model:ir.model.fields,field_description:hr_gratuity_settlement.field_other_settlements__message_ids
+msgid "Messages"
+msgstr "消息"
+
+#. module: hr_gratuity_settlement
+#: code:addons/hr_gratuity_settlement/models/employee_gratuity.py:20
+#: code:addons/hr_gratuity_settlement/models/other_settlements.py:21
+#, python-format
+msgid "New"
+msgstr "新建"
+
+#. module: hr_gratuity_settlement
+#: model:ir.model.fields,field_description:hr_gratuity_settlement.field_hr_gratuity__activity_date_deadline
+#: model:ir.model.fields,field_description:hr_gratuity_settlement.field_other_settlements__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "下一活动截止日期"
+
+#. module: hr_gratuity_settlement
+#: model:ir.model.fields,field_description:hr_gratuity_settlement.field_hr_gratuity__activity_summary
+#: model:ir.model.fields,field_description:hr_gratuity_settlement.field_other_settlements__activity_summary
+msgid "Next Activity Summary"
+msgstr "下一个活动摘要"
+
+#. module: hr_gratuity_settlement
+#: model:ir.model.fields,field_description:hr_gratuity_settlement.field_hr_gratuity__activity_type_id
+#: model:ir.model.fields,field_description:hr_gratuity_settlement.field_other_settlements__activity_type_id
+msgid "Next Activity Type"
+msgstr "下一活动类型"
+
+#. module: hr_gratuity_settlement
+#: model:ir.model.fields,field_description:hr_gratuity_settlement.field_hr_gratuity__message_needaction_counter
+#: model:ir.model.fields,field_description:hr_gratuity_settlement.field_other_settlements__message_needaction_counter
+msgid "Number of Actions"
+msgstr "行动数量"
+
+#. module: hr_gratuity_settlement
+#: model:ir.model.fields,field_description:hr_gratuity_settlement.field_hr_gratuity__message_has_error_counter
+#: model:ir.model.fields,field_description:hr_gratuity_settlement.field_other_settlements__message_has_error_counter
+msgid "Number of error"
+msgstr "错误数"
+
+#. module: hr_gratuity_settlement
+#: model:ir.model.fields,help:hr_gratuity_settlement.field_hr_gratuity__message_needaction_counter
+#: model:ir.model.fields,help:hr_gratuity_settlement.field_other_settlements__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "需要行动消息的数量"
+
+#. module: hr_gratuity_settlement
+#: model:ir.model.fields,help:hr_gratuity_settlement.field_hr_gratuity__message_has_error_counter
+#: model:ir.model.fields,help:hr_gratuity_settlement.field_other_settlements__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "递送错误的消息数量"
+
+#. module: hr_gratuity_settlement
+#: model:ir.model.fields,help:hr_gratuity_settlement.field_hr_gratuity__message_unread_counter
+#: model:ir.model.fields,help:hr_gratuity_settlement.field_other_settlements__message_unread_counter
+msgid "Number of unread messages"
+msgstr "未读消息的数量"
+
+#. module: hr_gratuity_settlement
+#: code:addons/hr_gratuity_settlement/models/other_settlements.py:91
+#, python-format
+msgid "Only an Employee with minimum 1 years of working, will get the Settlement advantage"
+msgstr "只有工作至少1年的员工, 才能获得结算优势 \""
+
+#. module: hr_gratuity_settlement
+#: code:addons/hr_gratuity_settlement/models/employee_gratuity.py:67
+#, python-format
+msgid "Only an Employee with minimum 5 years of working, will get the Gratuity"
+msgstr "只有工作至少5年的员工, 才能获得酬金"
+
+#. module: hr_gratuity_settlement
+#: model:ir.ui.menu,name:hr_gratuity_settlement.other_settlements
+msgid "Other Settlements"
+msgstr "其他结算"
+
+#. module: hr_gratuity_settlement
+#: selection:hr.gratuity,activity_state:0
+#: selection:other.settlements,activity_state:0
+msgid "Overdue"
+msgstr "过期"
+
+#. module: hr_gratuity_settlement
+#: selection:hr.gratuity,activity_state:0
+#: selection:other.settlements,activity_state:0
+msgid "Planned"
+msgstr "计划"
+
+#. module: hr_gratuity_settlement
+#: model:ir.model.fields,field_description:hr_gratuity_settlement.field_hr_gratuity__name
+#: model:ir.model.fields,field_description:hr_gratuity_settlement.field_other_settlements__name
+msgid "Reference"
+msgstr "编号"
+
+#. module: hr_gratuity_settlement
+#: model:ir.model.fields,field_description:hr_gratuity_settlement.field_hr_gratuity__activity_user_id
+#: model:ir.model.fields,field_description:hr_gratuity_settlement.field_other_settlements__activity_user_id
+msgid "Responsible User"
+msgstr "责任用户"
+
+#. module: hr_gratuity_settlement
+#: model_terms:ir.ui.view,arch_db:hr_gratuity_settlement.employee_gratuity_form
+#: model_terms:ir.ui.view,arch_db:hr_gratuity_settlement.other_settlements_form
+msgid "Set to Draft"
+msgstr "设为草稿"
+
+#. module: hr_gratuity_settlement
+#: model:ir.model,name:hr_gratuity_settlement.model_other_settlements
+msgid "Settlement"
+msgstr "结算"
+
+#. module: hr_gratuity_settlement
+#: model:ir.model.fields,field_description:hr_gratuity_settlement.field_other_settlements__reason
+msgid "Settlement Reason"
+msgstr "结算原因"
+
+#. module: hr_gratuity_settlement
+#: model:ir.actions.act_window,name:hr_gratuity_settlement.action_other_settlements
+msgid "Settlements"
+msgstr "结算"
+
+#. module: hr_gratuity_settlement
+#: model:ir.model.fields,field_description:hr_gratuity_settlement.field_hr_gratuity__state
+#: model:ir.model.fields,field_description:hr_gratuity_settlement.field_other_settlements__state
+msgid "State"
+msgstr "状态"
+
+#. module: hr_gratuity_settlement
+#: model:ir.model.fields,help:hr_gratuity_settlement.field_hr_gratuity__activity_state
+#: model:ir.model.fields,help:hr_gratuity_settlement.field_other_settlements__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"基于活动的状态 \n"
+" 逾期：已经超过截止日期 \n"
+" 现今：活动日期是当天 \n"
+" 计划：未来的活动。"
+
+#. module: hr_gratuity_settlement
+#: selection:hr.gratuity,activity_state:0
+#: selection:other.settlements,activity_state:0
+msgid "Today"
+msgstr "今天"
+
+#. module: hr_gratuity_settlement
+#: model_terms:ir.ui.view,arch_db:hr_gratuity_settlement.other_settlements_tree
+msgid "Total"
+msgstr "总计"
+
+#. module: hr_gratuity_settlement
+#: model:ir.model.fields,field_description:hr_gratuity_settlement.field_hr_gratuity__worked_years
+#: model:ir.model.fields,field_description:hr_gratuity_settlement.field_other_settlements__worked_years
+msgid "Total Work Years"
+msgstr "总工作年限"
+
+#. module: hr_gratuity_settlement
+#: model_terms:ir.ui.view,arch_db:hr_gratuity_settlement.employee_gratuity_tree
+msgid "Total amount"
+msgstr "合计金额"
+
+#. module: hr_gratuity_settlement
+#: model:ir.model.fields,field_description:hr_gratuity_settlement.field_hr_gratuity__message_unread
+#: model:ir.model.fields,field_description:hr_gratuity_settlement.field_other_settlements__message_unread
+msgid "Unread Messages"
+msgstr "未读消息"
+
+#. module: hr_gratuity_settlement
+#: model:ir.model.fields,field_description:hr_gratuity_settlement.field_hr_gratuity__message_unread_counter
+#: model:ir.model.fields,field_description:hr_gratuity_settlement.field_other_settlements__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "未读消息计数器"
+
+#. module: hr_gratuity_settlement
+#: model_terms:ir.ui.view,arch_db:hr_gratuity_settlement.employee_gratuity_form
+#: model_terms:ir.ui.view,arch_db:hr_gratuity_settlement.other_settlements_form
+msgid "Validate"
+msgstr "验证"
+
+#. module: hr_gratuity_settlement
+#: selection:hr.gratuity,state:0 selection:other.settlements,state:0
+msgid "Validated"
+msgstr "验证"
+
+#. module: hr_gratuity_settlement
+#: model:ir.model.fields,field_description:hr_gratuity_settlement.field_hr_gratuity__website_message_ids
+#: model:ir.model.fields,field_description:hr_gratuity_settlement.field_other_settlements__website_message_ids
+msgid "Website Messages"
+msgstr "网站消息"
+
+#. module: hr_gratuity_settlement
+#: model:ir.model.fields,help:hr_gratuity_settlement.field_hr_gratuity__website_message_ids
+#: model:ir.model.fields,help:hr_gratuity_settlement.field_other_settlements__website_message_ids
+msgid "Website communication history"
+msgstr "网站沟通记录"

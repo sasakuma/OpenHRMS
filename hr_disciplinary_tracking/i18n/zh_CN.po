@@ -1,0 +1,517 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* hr_disciplinary_tracking
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-21 04:11+0000\n"
+"PO-Revision-Date: 2018-12-21 12:20+0800\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: zh_CN\n"
+"X-Generator: Poedit 2.2\n"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__action
+#: model_terms:ir.ui.view,arch_db:hr_disciplinary_tracking.employee_disciplinary_form
+msgid "Action"
+msgstr "动作"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.actions.act_window,name:hr_disciplinary_tracking.action_category_action_view
+#: model_terms:ir.ui.view,arch_db:hr_disciplinary_tracking.category_action_view_tree
+msgid "Action Categories"
+msgstr "操作类别"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model,name:hr_disciplinary_tracking.model_action_category
+#: model:ir.ui.menu,name:hr_disciplinary_tracking.action_category_view
+#: model_terms:ir.ui.view,arch_db:hr_disciplinary_tracking.category_action_view_form
+msgid "Action Category"
+msgstr "操作类别"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__action_details
+#: model:ir.ui.menu,name:hr_disciplinary_tracking.disciplinary_action_view
+msgid "Action Details"
+msgstr "操作详细信息"
+
+#. module: hr_disciplinary_tracking
+#: model_terms:ir.ui.view,arch_db:hr_disciplinary_tracking.employee_disciplinary_form
+msgid "Action Information"
+msgstr "操作信息"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__message_needaction
+msgid "Action Needed"
+msgstr "需要行动"
+
+#. module: hr_disciplinary_tracking
+#: selection:disciplinary.action,state:0
+msgid "Action Validated"
+msgstr "已验证的操作"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__activity_ids
+msgid "Activities"
+msgstr "活动"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__activity_state
+msgid "Activity State"
+msgstr "活动状态"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__message_attachment_count
+msgid "Attachment Count"
+msgstr "附件数量"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__attachment_ids
+msgid "Attachments"
+msgstr "附件"
+
+#. module: hr_disciplinary_tracking
+#: model_terms:ir.ui.view,arch_db:hr_disciplinary_tracking.employee_disciplinary_form
+msgid "Cancel"
+msgstr "取消"
+
+#. module: hr_disciplinary_tracking
+#: selection:disciplinary.action,state:0
+msgid "Cancelled"
+msgstr "取消"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_action_category__code
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_discipline_category__code
+msgid "Code"
+msgstr "代号"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_action_category__create_uid
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__create_uid
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_discipline_category__create_uid
+msgid "Created by"
+msgstr "创建人"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_action_category__create_date
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__create_date
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_discipline_category__create_date
+msgid "Created on"
+msgstr "创建时间"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__department_name
+msgid "Department"
+msgstr "部门"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_action_category__description
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_discipline_category__description
+msgid "Details"
+msgstr "细则"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model,name:hr_disciplinary_tracking.model_disciplinary_action
+#: model:ir.ui.menu,name:hr_disciplinary_tracking.disciplinary_action_create
+#: model_terms:ir.ui.view,arch_db:hr_disciplinary_tracking.employee_disciplinary_form
+#: model_terms:ir.ui.view,arch_db:hr_disciplinary_tracking.employee_disciplinary_tree
+msgid "Disciplinary Action"
+msgstr "纪律处分"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.actions.act_window,name:hr_disciplinary_tracking.action_disciplinary_action
+msgid "Disciplinary Action Creation"
+msgstr "创建纪律处分"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.actions.act_window,name:hr_disciplinary_tracking.action_disciplinary_action_view
+msgid "Disciplinary Action View"
+msgstr "纪律处分视图"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.ui.menu,name:hr_disciplinary_tracking.disciplinary_action
+msgid "Disciplinary Actions"
+msgstr "纪律处分"
+
+#. module: hr_disciplinary_tracking
+#: model_terms:ir.ui.view,arch_db:hr_disciplinary_tracking.inherit_employee_form
+msgid "Discipline"
+msgstr "纪律"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.actions.act_window,name:hr_disciplinary_tracking.action_disciplinary_category_view
+#: model_terms:ir.ui.view,arch_db:hr_disciplinary_tracking.disciplinary_category_view_tree
+msgid "Discipline Categories"
+msgstr "纪律类别"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.ui.menu,name:hr_disciplinary_tracking.disciplinary_category_view
+#: model_terms:ir.ui.view,arch_db:hr_disciplinary_tracking.disciplinary_category_view_form
+msgid "Discipline Category"
+msgstr "纪律类别"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_action_category__display_name
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__display_name
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_discipline_category__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: hr_disciplinary_tracking
+#: selection:disciplinary.action,state:0
+msgid "Draft"
+msgstr "草稿"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model,name:hr_disciplinary_tracking.model_hr_employee
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__employee_name
+#: model_terms:ir.ui.view,arch_db:hr_disciplinary_tracking.employee_disciplinary_form
+msgid "Employee"
+msgstr "员工"
+
+#. module: hr_disciplinary_tracking
+#: model_terms:ir.ui.view,arch_db:hr_disciplinary_tracking.employee_disciplinary_form
+msgid "Employee Information"
+msgstr "员工信息"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,help:hr_disciplinary_tracking.field_disciplinary_action__attachment_ids
+msgid "Employee can submit any documents which supports their explanation"
+msgstr "员工可以提交任何支持他们解释的文件"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,help:hr_disciplinary_tracking.field_disciplinary_action__explanation
+msgid "Employee have to give Explanationto manager about the violation of discipline"
+msgstr "员工必须向经理解释违纪行为"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__explanation
+msgid "Explanation by Employee"
+msgstr "员工的解释"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__message_follower_ids
+msgid "Followers"
+msgstr "关注者"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__message_channel_ids
+msgid "Followers (Channels)"
+msgstr "关注者(渠道)"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "关注者(业务伙伴)"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_action_category__id
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__id
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_discipline_category__id
+msgid "ID"
+msgstr ""
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,help:hr_disciplinary_tracking.field_disciplinary_action__message_unread
+msgid "If checked new messages require your attention."
+msgstr "查看是否有需要留意的新消息。"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,help:hr_disciplinary_tracking.field_disciplinary_action__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "如果勾选此项，有新消息会提醒你"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,help:hr_disciplinary_tracking.field_disciplinary_action__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr "如果勾选此项， 某些消息将会产生传递错误。"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__note
+msgid "Internal Note"
+msgstr "内部备注"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__message_is_follower
+msgid "Is Follower"
+msgstr "是关注者"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__joined_date
+#: model_terms:ir.ui.view,arch_db:hr_disciplinary_tracking.employee_disciplinary_form
+msgid "Joined Date"
+msgstr "入职日期"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_action_category____last_update
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action____last_update
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_discipline_category____last_update
+msgid "Last Modified on"
+msgstr "最后修改日"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_action_category__write_uid
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__write_uid
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_discipline_category__write_uid
+msgid "Last Updated by"
+msgstr "最后更新者"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_action_category__write_date
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__write_date
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_discipline_category__write_date
+msgid "Last Updated on"
+msgstr "最后更新时间"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "附件"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__message_has_error
+msgid "Message Delivery error"
+msgstr "消息递送错误"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__message_ids
+msgid "Messages"
+msgstr "消息"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_action_category__name
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_discipline_category__name
+msgid "Name"
+msgstr "名称"
+
+#. module: hr_disciplinary_tracking
+#: code:addons/hr_disciplinary_tracking/models/disciplinary_action.py:52
+#, python-format
+msgid "New"
+msgstr "新建"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "下一活动截止日期"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__activity_summary
+msgid "Next Activity Summary"
+msgstr "下一个活动摘要"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__activity_type_id
+msgid "Next Activity Type"
+msgstr "下一活动类型"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__message_needaction_counter
+msgid "Number of Actions"
+msgstr "行动数量"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__message_has_error_counter
+msgid "Number of error"
+msgstr "错误数"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,help:hr_disciplinary_tracking.field_disciplinary_action__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "需要行动消息的数量"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,help:hr_disciplinary_tracking.field_disciplinary_action__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "递送错误的消息数量"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,help:hr_disciplinary_tracking.field_disciplinary_action__message_unread_counter
+msgid "Number of unread messages"
+msgstr "未读消息的数量"
+
+#. module: hr_disciplinary_tracking
+#: selection:disciplinary.action,activity_state:0
+msgid "Overdue"
+msgstr "迟到"
+
+#. module: hr_disciplinary_tracking
+#: selection:disciplinary.action,activity_state:0
+msgid "Planned"
+msgstr "计划"
+
+#. module: hr_disciplinary_tracking
+#: model_terms:ir.ui.view,arch_db:hr_disciplinary_tracking.employee_disciplinary_form
+msgid "Proceed"
+msgstr "进行"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__read_only
+msgid "Read Only"
+msgstr "只读"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__discipline_reason
+#: model_terms:ir.ui.view,arch_db:hr_disciplinary_tracking.employee_disciplinary_form
+msgid "Reason"
+msgstr "原因"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model,name:hr_disciplinary_tracking.model_discipline_category
+msgid "Reason Category"
+msgstr "原因类别"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__name
+msgid "Reference"
+msgstr "参考"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__activity_user_id
+msgid "Responsible User"
+msgstr "责任用户"
+
+#. module: hr_disciplinary_tracking
+#: model_terms:ir.ui.view,arch_db:hr_disciplinary_tracking.employee_disciplinary_form
+msgid "Set to Draft"
+msgstr "设为草稿"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__state
+msgid "State"
+msgstr "状态"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,help:hr_disciplinary_tracking.field_disciplinary_action__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"基于活动的状态 \n"
+" 逾期：已经超过截止日期 \n"
+" 现今：活动日期是当天 \n"
+" 计划：未来的活动。"
+
+#. module: hr_disciplinary_tracking
+#: model_terms:ir.ui.view,arch_db:hr_disciplinary_tracking.employee_disciplinary_form
+msgid "Submit"
+msgstr "提交"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__suspension_letter
+msgid "Suspension Letter"
+msgstr "中止Letter"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__termination_letter
+msgid "Termination Letter"
+msgstr "终止函"
+
+#. module: hr_disciplinary_tracking
+#: selection:disciplinary.action,activity_state:0
+msgid "Today"
+msgstr "今天"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__message_unread
+msgid "Unread Messages"
+msgstr "未读消息"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "未读消息计数器"
+
+#. module: hr_disciplinary_tracking
+#: model_terms:ir.ui.view,arch_db:hr_disciplinary_tracking.employee_disciplinary_form
+msgid "Validate Action"
+msgstr "验证操作"
+
+#. module: hr_disciplinary_tracking
+#: selection:disciplinary.action,state:0
+msgid "Waiting Action"
+msgstr "等待操作"
+
+#. module: hr_disciplinary_tracking
+#: selection:disciplinary.action,state:0
+msgid "Waiting Explanation"
+msgstr "等待说明"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__warning
+msgid "Warning"
+msgstr "等待"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__warning_letter
+msgid "Warning Letter"
+msgstr "警告信"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,field_description:hr_disciplinary_tracking.field_disciplinary_action__website_message_ids
+msgid "Website Messages"
+msgstr "网站消息"
+
+#. module: hr_disciplinary_tracking
+#: model:ir.model.fields,help:hr_disciplinary_tracking.field_disciplinary_action__website_message_ids
+msgid "Website communication history"
+msgstr "网站沟通记录"
+
+#. module: hr_disciplinary_tracking
+#: code:addons/hr_disciplinary_tracking/models/disciplinary_action.py:113
+#: code:addons/hr_disciplinary_tracking/models/disciplinary_action.py:119
+#, python-format
+msgid "You Can not edit a Validated Action !!"
+msgstr "您不能编辑已验证的操作!!"
+
+#. module: hr_disciplinary_tracking
+#: code:addons/hr_disciplinary_tracking/models/disciplinary_action.py:161
+#, python-format
+msgid "You have to fill up the  Action Information !!"
+msgstr "你必须填写的行动信息!!"
+
+#. module: hr_disciplinary_tracking
+#: code:addons/hr_disciplinary_tracking/models/disciplinary_action.py:149
+#, python-format
+msgid "You have to fill up the Suspension Letter in Action Information !!"
+msgstr "你必须填写暂停信在行动信息!!"
+
+#. module: hr_disciplinary_tracking
+#: code:addons/hr_disciplinary_tracking/models/disciplinary_action.py:153
+#, python-format
+msgid "You have to fill up the Termination Letter in  Action Information !!"
+msgstr "您必须填写在行动信息的终止信!!"
+
+#. module: hr_disciplinary_tracking
+#: code:addons/hr_disciplinary_tracking/models/disciplinary_action.py:145
+#, python-format
+msgid "You have to fill up the Warning Letter in Action Information !!"
+msgstr "你必须填写警告信在行动信息!!"
+
+#. module: hr_disciplinary_tracking
+#: code:addons/hr_disciplinary_tracking/models/disciplinary_action.py:141
+#, python-format
+msgid "You have to select an Action !!"
+msgstr "你必须选择一个行动!!"
+
+#. module: hr_disciplinary_tracking
+#: code:addons/hr_disciplinary_tracking/models/disciplinary_action.py:169
+#, python-format
+msgid "You must give an explanation !!"
+msgstr "你必须给一个解释!!"
+
+#. module: hr_disciplinary_tracking
+#: code:addons/hr_disciplinary_tracking/models/disciplinary_action.py:171
+#, python-format
+msgid "Your explanation must contain at least 5 words   !!"
+msgstr "你的解释必须包含至少5个字!!"

@@ -1,0 +1,239 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* hr_employee_transfer
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-21 03:54+0000\n"
+"PO-Revision-Date: 2018-12-21 11:59+0800\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: zh_CN\n"
+"X-Generator: Poedit 2.2\n"
+
+#. module: hr_employee_transfer
+#: model:ir.model.fields,help:hr_employee_transfer.field_employee_transfer__state
+msgid ""
+" * The 'Draft' status is used when a transfer is created and unconfirmed Transfer.\n"
+" * The 'Transferred' status is used when the user confirm the transfer. It stays in the open status till the other branch/company receive the employee.\n"
+" * The 'Done' status is set automatically when the employee is Joined/Received.\n"
+" * The 'Cancelled' status is used when user cancel Transfer."
+msgstr ""
+"* 创建调动和未经确认的调动时, 将使用 \"草稿\" 状态。\n"
+" * 当用户确认调动时, 将使用 \"调动\" 状态。它保持在打开状态, 直到另一个分支公司接收员工。\n"
+" * 当员工是联合/接收时, 将自动设置 \"完成\" 状态。\n"
+" * 用户取消调动时使用 \"取消\" 状态。"
+
+#. module: hr_employee_transfer
+#: model:ir.model.fields,help:hr_employee_transfer.field_employee_transfer__sequence_number
+msgid "A unique sequence number for the Transfer"
+msgstr "调动的唯一序列号"
+
+#. module: hr_employee_transfer
+#: model_terms:ir.ui.view,arch_db:hr_employee_transfer.employee_transfer
+msgid "Cancel"
+msgstr "取消"
+
+#. module: hr_employee_transfer
+#: selection:employee.transfer,state:0
+msgid "Cancelled"
+msgstr "取消"
+
+#. module: hr_employee_transfer
+#: model_terms:ir.actions.act_window,help:hr_employee_transfer.action_employee_transfer
+msgid "Click to create a new Transfer."
+msgstr "单击以创建新的调动。"
+
+#. module: hr_employee_transfer
+#: model:ir.model,name:hr_employee_transfer.model_res_company
+msgid "Companies"
+msgstr "公司"
+
+#. module: hr_employee_transfer
+#: model:ir.model.fields,field_description:hr_employee_transfer.field_employee_transfer__company_id
+#: model:ir.model.fields,field_description:hr_employee_transfer.field_hr_contract__company_id
+#: model:ir.model.fields,field_description:hr_employee_transfer.field_transfer_company__company_id
+msgid "Company"
+msgstr "公司"
+
+#. module: hr_employee_transfer
+#: model:ir.model.fields,help:hr_employee_transfer.field_transfer_company__company_id
+msgid "Company name same as res.company"
+msgstr "公司名称与res.company"
+
+#. module: hr_employee_transfer
+#: code:addons/hr_employee_transfer/models/employee_transfer.py:78
+#, python-format
+msgid "Contract"
+msgstr "合同"
+
+#. module: hr_employee_transfer
+#: model:ir.model.fields,field_description:hr_employee_transfer.field_employee_transfer__create_uid
+#: model:ir.model.fields,field_description:hr_employee_transfer.field_transfer_company__create_uid
+msgid "Created by"
+msgstr "创建人"
+
+#. module: hr_employee_transfer
+#: model:ir.model.fields,field_description:hr_employee_transfer.field_employee_transfer__create_date
+#: model:ir.model.fields,field_description:hr_employee_transfer.field_transfer_company__create_date
+msgid "Created on"
+msgstr "创建时间"
+
+#. module: hr_employee_transfer
+#: model:ir.model.fields,field_description:hr_employee_transfer.field_employee_transfer__date
+msgid "Date"
+msgstr "日期"
+
+#. module: hr_employee_transfer
+#: model:ir.model.fields,field_description:hr_employee_transfer.field_employee_transfer__display_name
+#: model:ir.model.fields,field_description:hr_employee_transfer.field_transfer_company__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: hr_employee_transfer
+#: selection:employee.transfer,state:0
+msgid "Done"
+msgstr "完成"
+
+#. module: hr_employee_transfer
+#: model:ir.model.fields,field_description:hr_employee_transfer.field_employee_transfer__employee_id
+msgid "Employee"
+msgstr "员工"
+
+#. module: hr_employee_transfer
+#: model:ir.model,name:hr_employee_transfer.model_hr_contract
+msgid "Employee Contract"
+msgstr "员工合同"
+
+#. module: hr_employee_transfer
+#: model:ir.actions.act_window,name:hr_employee_transfer.action_employee_transfer
+#: model:ir.model,name:hr_employee_transfer.model_employee_transfer
+#: model:ir.ui.menu,name:hr_employee_transfer.menu_employee_transfer
+#: model_terms:ir.ui.view,arch_db:hr_employee_transfer.employee_transfer
+#: model_terms:ir.ui.view,arch_db:hr_employee_transfer.employee_transfer_tree
+msgid "Employee Transfer"
+msgstr "员工调动"
+
+#. module: hr_employee_transfer
+#: model:ir.model.fields,help:hr_employee_transfer.field_employee_transfer__name
+msgid "Give a name to the Transfer"
+msgstr "为调动指定名称"
+
+#. module: hr_employee_transfer
+#: model:ir.model.fields,field_description:hr_employee_transfer.field_employee_transfer__id
+#: model:ir.model.fields,field_description:hr_employee_transfer.field_transfer_company__id
+msgid "ID"
+msgstr "ID"
+
+#. module: hr_employee_transfer
+#: model:ir.model.fields,field_description:hr_employee_transfer.field_employee_transfer__note
+#: model_terms:ir.ui.view,arch_db:hr_employee_transfer.employee_transfer
+msgid "Internal Notes"
+msgstr "内部备注"
+
+#. module: hr_employee_transfer
+#: model:ir.model.fields,field_description:hr_employee_transfer.field_employee_transfer____last_update
+#: model:ir.model.fields,field_description:hr_employee_transfer.field_transfer_company____last_update
+msgid "Last Modified on"
+msgstr "最后修改日"
+
+#. module: hr_employee_transfer
+#: model:ir.model.fields,field_description:hr_employee_transfer.field_employee_transfer__write_uid
+#: model:ir.model.fields,field_description:hr_employee_transfer.field_transfer_company__write_uid
+msgid "Last Updated by"
+msgstr "最后更新者"
+
+#. module: hr_employee_transfer
+#: model:ir.model.fields,field_description:hr_employee_transfer.field_employee_transfer__write_date
+#: model:ir.model.fields,field_description:hr_employee_transfer.field_transfer_company__write_date
+msgid "Last Updated on"
+msgstr "最后更新时间"
+
+#. module: hr_employee_transfer
+#: model:ir.model.fields,field_description:hr_employee_transfer.field_employee_transfer__name
+#: model:ir.model.fields,field_description:hr_employee_transfer.field_transfer_company__name
+#: model_terms:ir.ui.view,arch_db:hr_employee_transfer.employee_transfer
+msgid "Name"
+msgstr "名称"
+
+#. module: hr_employee_transfer
+#: selection:employee.transfer,state:0
+msgid "New"
+msgstr "新建"
+
+#. module: hr_employee_transfer
+#: model_terms:ir.ui.view,arch_db:hr_employee_transfer.employee_transfer
+msgid "Receive"
+msgstr "接收"
+
+#. module: hr_employee_transfer
+#: model:ir.model.fields,field_description:hr_employee_transfer.field_employee_transfer__responsible
+msgid "Responsible"
+msgstr "负责人"
+
+#. module: hr_employee_transfer
+#: model:ir.model.fields,help:hr_employee_transfer.field_employee_transfer__employee_id
+msgid "Select the employee you are going to transfer"
+msgstr "选择您要调动的员工"
+
+#. module: hr_employee_transfer
+#: model:ir.model.fields,field_description:hr_employee_transfer.field_employee_transfer__sequence_number
+msgid "Sequence Number"
+msgstr "序号"
+
+#. module: hr_employee_transfer
+#: model:ir.model.fields,field_description:hr_employee_transfer.field_employee_transfer__state
+msgid "Status"
+msgstr "状态"
+
+#. module: hr_employee_transfer
+#: model:ir.model.fields,help:hr_employee_transfer.field_employee_transfer__branch
+msgid "The Branch/Company which the employee is transferred"
+msgstr "员工被调离的分公司"
+
+#. module: hr_employee_transfer
+#: model_terms:ir.ui.view,arch_db:hr_employee_transfer.employee_transfer
+msgid "Transfer"
+msgstr "调拨"
+
+#. module: hr_employee_transfer
+#: model:ir.model.fields,field_description:hr_employee_transfer.field_employee_transfer__branch
+msgid "Transfer Branch"
+msgstr "调动分公司"
+
+#. module: hr_employee_transfer
+#: model:ir.model,name:hr_employee_transfer.model_transfer_company
+msgid "Transfer Company"
+msgstr "调动公司"
+
+#. module: hr_employee_transfer
+#: selection:employee.transfer,state:0
+#: model:ir.model.fields,field_description:hr_employee_transfer.field_hr_contract__from_transfer
+msgid "Transferred"
+msgstr "调动"
+
+#. module: hr_employee_transfer
+#: model:ir.model.fields,field_description:hr_employee_transfer.field_hr_contract__emp_transfer
+msgid "Transferred Employee"
+msgstr "被调动的员工"
+
+#. module: hr_employee_transfer
+#: model_terms:ir.actions.act_window,help:hr_employee_transfer.action_employee_transfer
+msgid ""
+"Use this menu to browse previous transfer. To record new\n"
+"                transfer, you may use the create button."
+msgstr ""
+"使用此菜单浏览以前的调动。若要记录新的\n"
+"                调动, 您可以使用创建按钮。"
+
+#. module: hr_employee_transfer
+#: code:addons/hr_employee_transfer/models/employee_transfer.py:43
+#, python-format
+msgid "You should select the transfer branch/company."
+msgstr "您应该选择调动的分公司或公司。"

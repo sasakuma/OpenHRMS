@@ -1,0 +1,256 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* hr_employee_updation
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-21 02:25+0000\n"
+"PO-Revision-Date: 2018-12-21 10:34+0800\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: zh_CN\n"
+"X-Generator: Poedit 2.2\n"
+
+#. module: hr_employee_updation
+#: model:ir.model.fields,field_description:hr_employee_updation.field_hr_employee__id_attachment_id
+#: model:ir.model.fields,field_description:hr_employee_updation.field_hr_employee__passport_attachment_id
+msgid "Attachment"
+msgstr "附件"
+
+#. module: hr_employee_updation
+#: model:ir.model.fields,field_description:hr_employee_updation.field_hr_emergency_contact__relation
+msgid "Contact"
+msgstr "联系人"
+
+#. module: hr_employee_updation
+#: model:ir.model.fields,field_description:hr_employee_updation.field_hr_employee_family__member_contact
+msgid "Contact No"
+msgstr "联系电话No"
+
+#. module: hr_employee_updation
+#: model:ir.model.fields,help:hr_employee_updation.field_hr_emergency_contact__number
+msgid "Contact Number"
+msgstr "联系电话 Number"
+
+#. module: hr_employee_updation
+#: model:ir.model.fields,field_description:hr_employee_updation.field_hr_emergency_contact__create_uid
+#: model:ir.model.fields,field_description:hr_employee_updation.field_hr_employee_family__create_uid
+msgid "Created by"
+msgstr "创建人"
+
+#. module: hr_employee_updation
+#: model:ir.model.fields,field_description:hr_employee_updation.field_hr_emergency_contact__create_date
+#: model:ir.model.fields,field_description:hr_employee_updation.field_hr_employee_family__create_date
+msgid "Created on"
+msgstr "创建时间"
+
+#. module: hr_employee_updation
+#: selection:hr.employee.family,relation:0
+msgid "Daughter"
+msgstr "女儿"
+
+#. module: hr_employee_updation
+#: model:ir.model.fields,field_description:hr_employee_updation.field_hr_emergency_contact__display_name
+#: model:ir.model.fields,field_description:hr_employee_updation.field_hr_employee_family__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: hr_employee_updation
+#: model:ir.model.fields,field_description:hr_employee_updation.field_hr_employee__emergency_contact
+#: model_terms:ir.ui.view,arch_db:hr_employee_updation.hr_employee_inherit_form_view
+msgid "Emergency Contact"
+msgstr "紧急联系人"
+
+#. module: hr_employee_updation
+#: model:ir.model,name:hr_employee_updation.model_hr_employee
+#: model:ir.model.fields,field_description:hr_employee_updation.field_hr_employee_family__employee_id
+msgid "Employee"
+msgstr "员工"
+
+#. module: hr_employee_updation
+#: model:ir.model.fields,field_description:hr_employee_updation.field_hr_emergency_contact__employee_obj
+msgid "Employee Obj"
+msgstr "员工奥比"
+
+#. module: hr_employee_updation
+#: model:ir.model.fields,field_description:hr_employee_updation.field_hr_employee__id_expiry_date
+#: model:ir.model.fields,field_description:hr_employee_updation.field_hr_employee__passport_expiry_date
+msgid "Expiry Date"
+msgstr "截止日期/有效期"
+
+#. module: hr_employee_updation
+#: model:ir.model.fields,help:hr_employee_updation.field_hr_employee__id_expiry_date
+msgid "Expiry date of Identification ID"
+msgstr "身份证的到期日期"
+
+#. module: hr_employee_updation
+#: model:ir.model.fields,help:hr_employee_updation.field_hr_employee__passport_expiry_date
+msgid "Expiry date of Passport ID"
+msgstr "护照的有效期"
+
+#. module: hr_employee_updation
+#: model:ir.model.fields,field_description:hr_employee_updation.field_hr_employee__fam_ids
+#: model_terms:ir.ui.view,arch_db:hr_employee_updation.hr_employee_inherit_form_view
+msgid "Family"
+msgstr "家庭"
+
+#. module: hr_employee_updation
+#: model:ir.model.fields,help:hr_employee_updation.field_hr_employee__fam_ids
+#: model_terms:ir.ui.view,arch_db:hr_employee_updation.hr_employee_inherit_form_view
+msgid "Family Information"
+msgstr "家庭信息"
+
+#. module: hr_employee_updation
+#: selection:hr.employee.family,relation:0
+msgid "Father"
+msgstr "父亲"
+
+#. module: hr_employee_updation
+#: model:ir.model,name:hr_employee_updation.model_hr_emergency_contact
+msgid "HR Emergency Contact"
+msgstr "人力资源紧急联络"
+
+#. module: hr_employee_updation
+#: model:ir.actions.server,name:hr_employee_updation.employee_data_reminder_ir_actions_server
+#: model:ir.cron,cron_name:hr_employee_updation.employee_data_reminder
+#: model:ir.cron,name:hr_employee_updation.employee_data_reminder
+msgid "HR Employee Data Expiration"
+msgstr "员工数据到期"
+
+#. module: hr_employee_updation
+#: model:ir.model,name:hr_employee_updation.model_hr_employee_family
+msgid "HR Employee Family"
+msgstr "员工家庭"
+
+#. module: hr_employee_updation
+#: model:ir.ui.menu,name:hr_employee_updation.menu_hr_management
+msgid "HR Management"
+msgstr "人力资源管理"
+
+#. module: hr_employee_updation
+#: model:ir.model.fields,field_description:hr_employee_updation.field_hr_emergency_contact__id
+#: model:ir.model.fields,field_description:hr_employee_updation.field_hr_employee_family__id
+msgid "ID"
+msgstr ""
+
+#. module: hr_employee_updation
+#: code:addons/hr_employee_updation/models/hr_employee.py:79
+#, python-format
+msgid "ID-%s Expired On %s"
+msgstr "ID-%s 已过期 %s"
+
+#. module: hr_employee_updation
+#: model_terms:ir.ui.view,arch_db:hr_employee_updation.hr_employee_inherit_form_view
+msgid "Identification ID"
+msgstr "身份证明"
+
+#. module: hr_employee_updation
+#: model:ir.model.fields,help:hr_employee_updation.field_hr_employee_family__employee_ref
+msgid "If family member currently is an employee of same company, then please tick this field"
+msgstr "如果家庭成员目前是同一公司的员工, 请勾选此字段"
+
+#. module: hr_employee_updation
+#: model:ir.model.fields,field_description:hr_employee_updation.field_hr_employee_family__employee_ref
+msgid "Is Employee"
+msgstr "是员工"
+
+#. module: hr_employee_updation
+#: model:ir.model.fields,field_description:hr_employee_updation.field_hr_employee__joining_date
+msgid "Joining Date"
+msgstr "入职日期"
+
+#. module: hr_employee_updation
+#: model:ir.model.fields,field_description:hr_employee_updation.field_hr_emergency_contact____last_update
+#: model:ir.model.fields,field_description:hr_employee_updation.field_hr_employee_family____last_update
+msgid "Last Modified on"
+msgstr "最后修改日"
+
+#. module: hr_employee_updation
+#: model:ir.model.fields,field_description:hr_employee_updation.field_hr_emergency_contact__write_uid
+#: model:ir.model.fields,field_description:hr_employee_updation.field_hr_employee_family__write_uid
+msgid "Last Updated by"
+msgstr "最后更新者"
+
+#. module: hr_employee_updation
+#: model:ir.model.fields,field_description:hr_employee_updation.field_hr_emergency_contact__write_date
+#: model:ir.model.fields,field_description:hr_employee_updation.field_hr_employee_family__write_date
+msgid "Last Updated on"
+msgstr "最后更新时间"
+
+#. module: hr_employee_updation
+#: model:ir.model.fields,field_description:hr_employee_updation.field_hr_employee__personal_mobile
+msgid "Mobile"
+msgstr "手机"
+
+#. module: hr_employee_updation
+#: selection:hr.employee.family,relation:0
+msgid "Mother"
+msgstr "母亲"
+
+#. module: hr_employee_updation
+#: model:ir.model.fields,field_description:hr_employee_updation.field_hr_employee_family__member_name
+msgid "Name"
+msgstr "名称"
+
+#. module: hr_employee_updation
+#: model:ir.model.fields,field_description:hr_employee_updation.field_hr_emergency_contact__number
+msgid "Number"
+msgstr "号码"
+
+#. module: hr_employee_updation
+#: model_terms:ir.ui.view,arch_db:hr_employee_updation.hr_employee_inherit_form_view
+msgid "Passport ID"
+msgstr "护照号码"
+
+#. module: hr_employee_updation
+#: code:addons/hr_employee_updation/models/hr_employee.py:93
+#, python-format
+msgid "Passport-%s Expired On %s"
+msgstr "护照-%s Expired On %s"
+
+#. module: hr_employee_updation
+#: model:ir.model.fields,help:hr_employee_updation.field_hr_emergency_contact__relation
+#: model:ir.model.fields,help:hr_employee_updation.field_hr_employee_family__relation
+msgid "Relation with employee"
+msgstr "与员工的关系"
+
+#. module: hr_employee_updation
+#: model:ir.model.fields,field_description:hr_employee_updation.field_hr_employee_family__relation
+msgid "Relationship"
+msgstr "关系"
+
+#. module: hr_employee_updation
+#: model:ir.ui.menu,name:hr_employee_updation.employee_report_menu
+msgid "Reports"
+msgstr "报告"
+
+#. module: hr_employee_updation
+#: model:ir.model.fields,help:hr_employee_updation.field_hr_employee_family__employee_id
+msgid "Select corresponding Employee"
+msgstr "选择相应的员工"
+
+#. module: hr_employee_updation
+#: selection:hr.employee.family,relation:0
+msgid "Son"
+msgstr "儿子"
+
+#. module: hr_employee_updation
+#: selection:hr.employee.family,relation:0
+msgid "Wife"
+msgstr "妻子"
+
+#. module: hr_employee_updation
+#: model:ir.model.fields,help:hr_employee_updation.field_hr_employee__passport_attachment_id
+msgid "You can attach the copy of Passport"
+msgstr "您可以附上护照复印件"
+
+#. module: hr_employee_updation
+#: model:ir.model.fields,help:hr_employee_updation.field_hr_employee__id_attachment_id
+msgid "You can attach the copy of your Id"
+msgstr "您可以附上身份证复印件"

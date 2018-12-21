@@ -1,0 +1,337 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* attendance_regularization
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-21 04:07+0000\n"
+"PO-Revision-Date: 2018-12-21 12:09+0800\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: zh_CN\n"
+"X-Generator: Poedit 2.2\n"
+
+#. module: attendance_regularization
+#: model:ir.model.fields,field_description:attendance_regularization.field_attendance_regular__message_needaction
+msgid "Action Needed"
+msgstr "需要行动"
+
+#. module: attendance_regularization
+#: model:ir.model.fields,field_description:attendance_regularization.field_attendance_regular__activity_ids
+msgid "Activities"
+msgstr "活动"
+
+#. module: attendance_regularization
+#: model:ir.model.fields,field_description:attendance_regularization.field_attendance_regular__activity_state
+msgid "Activity State"
+msgstr "活动状态"
+
+#. module: attendance_regularization
+#: model:ir.model,name:attendance_regularization.model_attendance_regular
+msgid "Approval Request"
+msgstr "批准申请"
+
+#. module: attendance_regularization
+#: model_terms:ir.ui.view,arch_db:attendance_regularization.attendance_regular11
+msgid "Approve"
+msgstr "批准"
+
+#. module: attendance_regularization
+#: model_terms:ir.ui.view,arch_db:attendance_regularization.view_regular_approve_tree
+msgid "Approve Regularization"
+msgstr "批准规范化"
+
+#. module: attendance_regularization
+#: selection:attendance.regular,state_select:0
+msgid "Approved"
+msgstr "已批准"
+
+#. module: attendance_regularization
+#: model:ir.model.fields,field_description:attendance_regularization.field_attendance_regular__message_attachment_count
+msgid "Attachment Count"
+msgstr "附件数量"
+
+#. module: attendance_regularization
+#: model:ir.ui.menu,name:attendance_regularization.regular_onsight
+#: model_terms:ir.ui.view,arch_db:attendance_regularization.view_regular_tree1
+msgid "Attendance Regularization"
+msgstr "考勤规范化"
+
+#. module: attendance_regularization
+#: model:ir.actions.act_window,name:attendance_regularization.action_view_request_regularization
+msgid "Attendance Regularization Approval"
+msgstr "考勤规范化审批"
+
+#. module: attendance_regularization
+#: model:ir.actions.act_window,name:attendance_regularization.action_view_regularization1
+msgid "Attendance Regularization Request"
+msgstr "考勤规范化请求"
+
+#. module: attendance_regularization
+#: model_terms:ir.actions.act_window,help:attendance_regularization.action_view_request_regularization
+msgid "Create new Record"
+msgstr "创建新记录"
+
+#. module: attendance_regularization
+#: model_terms:ir.actions.act_window,help:attendance_regularization.action_view_regularization1
+msgid "Create new Request"
+msgstr "创建新的请求"
+
+#. module: attendance_regularization
+#: model:ir.model.fields,field_description:attendance_regularization.field_attendance_regular__create_uid
+msgid "Created by"
+msgstr "创建人"
+
+#. module: attendance_regularization
+#: model:ir.model.fields,field_description:attendance_regularization.field_attendance_regular__create_date
+msgid "Created on"
+msgstr "创建时间"
+
+#. module: attendance_regularization
+#: model:ir.model.fields,field_description:attendance_regularization.field_attendance_regular__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: attendance_regularization
+#: selection:attendance.regular,state_select:0
+msgid "Draft"
+msgstr "草稿"
+
+#. module: attendance_regularization
+#: model:ir.model.fields,field_description:attendance_regularization.field_attendance_regular__employee
+msgid "Employee"
+msgstr "员工"
+
+#. module: attendance_regularization
+#: model:ir.model.fields,field_description:attendance_regularization.field_attendance_regular__message_follower_ids
+msgid "Followers"
+msgstr "关注者"
+
+#. module: attendance_regularization
+#: model:ir.model.fields,field_description:attendance_regularization.field_attendance_regular__message_channel_ids
+msgid "Followers (Channels)"
+msgstr "关注者(渠道)"
+
+#. module: attendance_regularization
+#: model:ir.model.fields,field_description:attendance_regularization.field_attendance_regular__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "关注者(业务伙伴)"
+
+#. module: attendance_regularization
+#: model:ir.model.fields,field_description:attendance_regularization.field_attendance_regular__from_date
+msgid "From Date"
+msgstr "起始日期"
+
+#. module: attendance_regularization
+#: model:ir.model.fields,field_description:attendance_regularization.field_attendance_regular__id
+msgid "ID"
+msgstr "ID"
+
+#. module: attendance_regularization
+#: model:ir.model.fields,help:attendance_regularization.field_attendance_regular__message_unread
+msgid "If checked new messages require your attention."
+msgstr "查看是否有需要留意的新消息。"
+
+#. module: attendance_regularization
+#: model:ir.model.fields,help:attendance_regularization.field_attendance_regular__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "如果勾选此项，有新消息会提醒你"
+
+#. module: attendance_regularization
+#: model:ir.model.fields,help:attendance_regularization.field_attendance_regular__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr "如果勾选此项， 某些消息将会产生传递错误。"
+
+#. module: attendance_regularization
+#: model:ir.model.fields,field_description:attendance_regularization.field_attendance_regular__message_is_follower
+msgid "Is Follower"
+msgstr "是关注者"
+
+#. module: attendance_regularization
+#: model:ir.model.fields,field_description:attendance_regularization.field_attendance_regular____last_update
+msgid "Last Modified on"
+msgstr "最后修改日"
+
+#. module: attendance_regularization
+#: model:ir.model.fields,field_description:attendance_regularization.field_attendance_regular__write_uid
+msgid "Last Updated by"
+msgstr "最后更新者"
+
+#. module: attendance_regularization
+#: model:ir.model.fields,field_description:attendance_regularization.field_attendance_regular__write_date
+msgid "Last Updated on"
+msgstr "最后更新时间"
+
+#. module: attendance_regularization
+#: model:ir.model.fields,field_description:attendance_regularization.field_attendance_regular__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "附件"
+
+#. module: attendance_regularization
+#: model:ir.model.fields,field_description:attendance_regularization.field_attendance_regular__message_has_error
+msgid "Message Delivery error"
+msgstr "消息递送错误"
+
+#. module: attendance_regularization
+#: model:ir.model.fields,field_description:attendance_regularization.field_attendance_regular__message_ids
+msgid "Messages"
+msgstr "消息"
+
+#. module: attendance_regularization
+#: model:ir.model.fields,field_description:attendance_regularization.field_attendance_regular__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "下一活动截止日期"
+
+#. module: attendance_regularization
+#: model:ir.model.fields,field_description:attendance_regularization.field_attendance_regular__activity_summary
+msgid "Next Activity Summary"
+msgstr "下一个活动摘要"
+
+#. module: attendance_regularization
+#: model:ir.model.fields,field_description:attendance_regularization.field_attendance_regular__activity_type_id
+msgid "Next Activity Type"
+msgstr "下一活动类型"
+
+#. module: attendance_regularization
+#: model:ir.model.fields,field_description:attendance_regularization.field_attendance_regular__message_needaction_counter
+msgid "Number of Actions"
+msgstr "行动数量"
+
+#. module: attendance_regularization
+#: model:ir.model.fields,field_description:attendance_regularization.field_attendance_regular__message_has_error_counter
+msgid "Number of error"
+msgstr "错误数"
+
+#. module: attendance_regularization
+#: model:ir.model.fields,help:attendance_regularization.field_attendance_regular__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "需要行动消息的数量"
+
+#. module: attendance_regularization
+#: model:ir.model.fields,help:attendance_regularization.field_attendance_regular__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "递送错误的消息数量"
+
+#. module: attendance_regularization
+#: model:ir.model.fields,help:attendance_regularization.field_attendance_regular__message_unread_counter
+msgid "Number of unread messages"
+msgstr "未读消息的数量"
+
+#. module: attendance_regularization
+#: selection:attendance.regular,reg_category:0
+msgid "On Sight Job"
+msgstr ""
+
+#. module: attendance_regularization
+#: selection:attendance.regular,activity_state:0
+msgid "Overdue"
+msgstr "过期"
+
+#. module: attendance_regularization
+#: selection:attendance.regular,activity_state:0
+msgid "Planned"
+msgstr "计划"
+
+#. module: attendance_regularization
+#: model:ir.model.fields,field_description:attendance_regularization.field_attendance_regular__reg_reason
+msgid "Reason"
+msgstr "原因"
+
+#. module: attendance_regularization
+#: model_terms:ir.ui.view,arch_db:attendance_regularization.attendance_regular11
+msgid "Regularization"
+msgstr "规范化"
+
+#. module: attendance_regularization
+#: model:ir.ui.menu,name:attendance_regularization.approving_regular
+msgid "Regularization Approval"
+msgstr "规范化审批"
+
+#. module: attendance_regularization
+#: model:ir.model.fields,field_description:attendance_regularization.field_attendance_regular__reg_category
+msgid "Regularization Category"
+msgstr "规范化分类"
+
+#. module: attendance_regularization
+#: model_terms:ir.ui.view,arch_db:attendance_regularization.attendance_regular11
+msgid "Reject"
+msgstr "拒绝"
+
+#. module: attendance_regularization
+#: selection:attendance.regular,state_select:0
+msgid "Rejected"
+msgstr "拒绝"
+
+#. module: attendance_regularization
+#: model:ir.ui.menu,name:attendance_regularization.applying_regular1
+msgid "Request Regularization"
+msgstr "请求规范化"
+
+#. module: attendance_regularization
+#: selection:attendance.regular,state_select:0
+msgid "Requested"
+msgstr "请求"
+
+#. module: attendance_regularization
+#: model:ir.model.fields,field_description:attendance_regularization.field_attendance_regular__activity_user_id
+msgid "Responsible User"
+msgstr "责任用户"
+
+#. module: attendance_regularization
+#: model:ir.model.fields,field_description:attendance_regularization.field_attendance_regular__state_select
+msgid "State"
+msgstr "状态"
+
+#. module: attendance_regularization
+#: model:ir.model.fields,help:attendance_regularization.field_attendance_regular__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"基于活动的状态 \n"
+" 逾期：已经超过截止日期 \n"
+" 现今：活动日期是当天 \n"
+" 计划：未来的活动。"
+
+#. module: attendance_regularization
+#: model_terms:ir.ui.view,arch_db:attendance_regularization.attendance_regular11
+msgid "Submit"
+msgstr "提交"
+
+#. module: attendance_regularization
+#: model:ir.model.fields,field_description:attendance_regularization.field_attendance_regular__to_date
+msgid "To Date"
+msgstr "至日期"
+
+#. module: attendance_regularization
+#: selection:attendance.regular,activity_state:0
+msgid "Today"
+msgstr "今天"
+
+#. module: attendance_regularization
+#: model:ir.model.fields,field_description:attendance_regularization.field_attendance_regular__message_unread
+msgid "Unread Messages"
+msgstr "未读消息"
+
+#. module: attendance_regularization
+#: model:ir.model.fields,field_description:attendance_regularization.field_attendance_regular__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "未读消息计数器"
+
+#. module: attendance_regularization
+#: model:ir.model.fields,field_description:attendance_regularization.field_attendance_regular__website_message_ids
+msgid "Website Messages"
+msgstr "网站消息"
+
+#. module: attendance_regularization
+#: model:ir.model.fields,help:attendance_regularization.field_attendance_regular__website_message_ids
+msgid "Website communication history"
+msgstr "网站沟通记录"

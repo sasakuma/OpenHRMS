@@ -1,0 +1,550 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* ohrms_service_request
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-21 05:17+0000\n"
+"PO-Revision-Date: 2018-12-21 13:30+0800\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: zh_CN\n"
+"X-Generator: Poedit 2.2\n"
+
+#. module: ohrms_service_request
+#: model:ir.model.fields,field_description:ohrms_service_request.field_service_execute__message_needaction
+#: model:ir.model.fields,field_description:ohrms_service_request.field_service_request__message_needaction
+msgid "Action Needed"
+msgstr "需要行动"
+
+#. module: ohrms_service_request
+#: model:ir.model.fields,field_description:ohrms_service_request.field_service_execute__activity_ids
+#: model:ir.model.fields,field_description:ohrms_service_request.field_service_request__activity_ids
+msgid "Activities"
+msgstr "活动"
+
+#. module: ohrms_service_request
+#: model:ir.model.fields,field_description:ohrms_service_request.field_service_execute__activity_state
+#: model:ir.model.fields,field_description:ohrms_service_request.field_service_request__activity_state
+msgid "Activity State"
+msgstr "活动状态"
+
+#. module: ohrms_service_request
+#: selection:service.request,service_type:0
+msgid "Adjustment"
+msgstr "调整"
+
+#. module: ohrms_service_request
+#: model_terms:ir.ui.view,arch_db:ohrms_service_request.service_request11
+msgid "Approve"
+msgstr "批准"
+
+#. module: ohrms_service_request
+#: selection:service.execute,state_execute:0 selection:service.request,state:0
+msgid "Approved"
+msgstr "批准"
+
+#. module: ohrms_service_request
+#: model_terms:ir.ui.view,arch_db:ohrms_service_request.service_request11
+msgid "Assign"
+msgstr "分配"
+
+#. module: ohrms_service_request
+#: selection:service.execute,state_execute:0 selection:service.request,state:0
+msgid "Assigned"
+msgstr "分配"
+
+#. module: ohrms_service_request
+#: model:ir.model.fields,field_description:ohrms_service_request.field_service_execute__message_attachment_count
+#: model:ir.model.fields,field_description:ohrms_service_request.field_service_request__message_attachment_count
+msgid "Attachment Count"
+msgstr "附件数量"
+
+#. module: ohrms_service_request
+#: model_terms:ir.ui.view,arch_db:ohrms_service_request.service_execute2
+#: selection:service.execute,state_execute:0 selection:service.request,state:0
+msgid "Checked"
+msgstr "检查"
+
+#. module: ohrms_service_request
+#: selection:service.request,service_type:0
+msgid "Checking"
+msgstr "检查"
+
+#. module: ohrms_service_request
+#: model:ir.model.fields,field_description:ohrms_service_request.field_service_execute__client
+msgid "Client"
+msgstr "委托人"
+
+#. module: ohrms_service_request
+#: model_terms:ir.actions.act_window,help:ohrms_service_request.action_view_service_requests
+msgid "Create new Request"
+msgstr "创建新的请求"
+
+#. module: ohrms_service_request
+#: model_terms:ir.actions.act_window,help:ohrms_service_request.action_view_service_approve
+#: model_terms:ir.actions.act_window,help:ohrms_service_request.action_view_service_check
+msgid "Create new record"
+msgstr "创建新记录"
+
+#. module: ohrms_service_request
+#: model:ir.model.fields,field_description:ohrms_service_request.field_service_execute__create_uid
+#: model:ir.model.fields,field_description:ohrms_service_request.field_service_request__create_uid
+msgid "Created by"
+msgstr "创建人"
+
+#. module: ohrms_service_request
+#: model:ir.model.fields,field_description:ohrms_service_request.field_service_execute__create_date
+#: model:ir.model.fields,field_description:ohrms_service_request.field_service_request__create_date
+msgid "Created on"
+msgstr "创建时间"
+
+#. module: ohrms_service_request
+#: model:ir.model.fields,field_description:ohrms_service_request.field_service_execute__execute_date
+msgid "Date Of Reporting"
+msgstr "报告日期"
+
+#. module: ohrms_service_request
+#: model:ir.model.fields,field_description:ohrms_service_request.field_service_execute__display_name
+#: model:ir.model.fields,field_description:ohrms_service_request.field_service_request__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: ohrms_service_request
+#: selection:service.execute,state_execute:0 selection:service.request,state:0
+msgid "Draft"
+msgstr "草稿"
+
+#. module: ohrms_service_request
+#: model:ir.model.fields,field_description:ohrms_service_request.field_service_request__employee
+msgid "Employee"
+msgstr "员工"
+
+#. module: ohrms_service_request
+#: model_terms:ir.actions.act_window,help:ohrms_service_request.action_view_pivot
+msgid "Enter the target"
+msgstr "输入目标"
+
+#. module: ohrms_service_request
+#: model:ir.model.fields,field_description:ohrms_service_request.field_service_execute__executer
+msgid "Executer"
+msgstr "运行"
+
+#. module: ohrms_service_request
+#: model:ir.model.fields,field_description:ohrms_service_request.field_service_execute__message_follower_ids
+#: model:ir.model.fields,field_description:ohrms_service_request.field_service_request__message_follower_ids
+msgid "Followers"
+msgstr "关注者"
+
+#. module: ohrms_service_request
+#: model:ir.model.fields,field_description:ohrms_service_request.field_service_execute__message_channel_ids
+#: model:ir.model.fields,field_description:ohrms_service_request.field_service_request__message_channel_ids
+msgid "Followers (Channels)"
+msgstr "关注者(渠道)"
+
+#. module: ohrms_service_request
+#: model:ir.model.fields,field_description:ohrms_service_request.field_service_execute__message_partner_ids
+#: model:ir.model.fields,field_description:ohrms_service_request.field_service_request__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "关注者(业务伙伴)"
+
+#. module: ohrms_service_request
+#: model:ir.model.fields,field_description:ohrms_service_request.field_service_execute__id
+#: model:ir.model.fields,field_description:ohrms_service_request.field_service_request__id
+msgid "ID"
+msgstr ""
+
+#. module: ohrms_service_request
+#: model:ir.model.fields,help:ohrms_service_request.field_service_execute__message_unread
+#: model:ir.model.fields,help:ohrms_service_request.field_service_request__message_unread
+msgid "If checked new messages require your attention."
+msgstr "查看是否有需要留意的新消息。"
+
+#. module: ohrms_service_request
+#: model:ir.model.fields,help:ohrms_service_request.field_service_execute__message_needaction
+#: model:ir.model.fields,help:ohrms_service_request.field_service_request__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "如果勾选此项，有新消息会提醒你"
+
+#. module: ohrms_service_request
+#: model:ir.model.fields,help:ohrms_service_request.field_service_execute__message_has_error
+#: model:ir.model.fields,help:ohrms_service_request.field_service_request__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr "如果勾选此项， 某些消息将会产生传递错误。"
+
+#. module: ohrms_service_request
+#: model_terms:ir.ui.view,arch_db:ohrms_service_request.service_execute2
+#: model_terms:ir.ui.view,arch_db:ohrms_service_request.service_request11
+msgid "Internal Notes"
+msgstr "内部备注"
+
+#. module: ohrms_service_request
+#: model:ir.model.fields,field_description:ohrms_service_request.field_service_execute__notes
+msgid "Internal notes"
+msgstr "内部备注"
+
+#. module: ohrms_service_request
+#: model:ir.model.fields,field_description:ohrms_service_request.field_service_execute__message_is_follower
+#: model:ir.model.fields,field_description:ohrms_service_request.field_service_request__message_is_follower
+msgid "Is Follower"
+msgstr "是关注者"
+
+#. module: ohrms_service_request
+#: model:ir.model.fields,field_description:ohrms_service_request.field_service_execute__issue
+msgid "Issue"
+msgstr "问题"
+
+#. module: ohrms_service_request
+#: model:ir.model.fields,field_description:ohrms_service_request.field_service_request__service_product
+msgid "Item For Service"
+msgstr "服务项目"
+
+#. module: ohrms_service_request
+#: model:ir.model.fields,field_description:ohrms_service_request.field_service_execute____last_update
+#: model:ir.model.fields,field_description:ohrms_service_request.field_service_request____last_update
+msgid "Last Modified on"
+msgstr "最后修改日"
+
+#. module: ohrms_service_request
+#: model:ir.model.fields,field_description:ohrms_service_request.field_service_execute__write_uid
+#: model:ir.model.fields,field_description:ohrms_service_request.field_service_request__write_uid
+msgid "Last Updated by"
+msgstr "最后更新者"
+
+#. module: ohrms_service_request
+#: model:ir.model.fields,field_description:ohrms_service_request.field_service_execute__write_date
+#: model:ir.model.fields,field_description:ohrms_service_request.field_service_request__write_date
+msgid "Last Updated on"
+msgstr "最后更新时间"
+
+#. module: ohrms_service_request
+#: model:ir.model.fields,field_description:ohrms_service_request.field_service_execute__message_main_attachment_id
+#: model:ir.model.fields,field_description:ohrms_service_request.field_service_request__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "附件"
+
+#. module: ohrms_service_request
+#: model:ir.model.fields,field_description:ohrms_service_request.field_service_execute__message_has_error
+#: model:ir.model.fields,field_description:ohrms_service_request.field_service_request__message_has_error
+msgid "Message Delivery error"
+msgstr "消息递送错误"
+
+#. module: ohrms_service_request
+#: model:ir.model.fields,field_description:ohrms_service_request.field_service_execute__message_ids
+#: model:ir.model.fields,field_description:ohrms_service_request.field_service_request__message_ids
+msgid "Messages"
+msgstr "消息"
+
+#. module: ohrms_service_request
+#: code:addons/ohrms_service_request/models/service.py:39
+#, python-format
+msgid "New"
+msgstr "新的"
+
+#. module: ohrms_service_request
+#: model:ir.model.fields,field_description:ohrms_service_request.field_service_execute__activity_date_deadline
+#: model:ir.model.fields,field_description:ohrms_service_request.field_service_request__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "下一活动截止日期"
+
+#. module: ohrms_service_request
+#: model:ir.model.fields,field_description:ohrms_service_request.field_service_execute__activity_summary
+#: model:ir.model.fields,field_description:ohrms_service_request.field_service_request__activity_summary
+msgid "Next Activity Summary"
+msgstr "下一个活动摘要"
+
+#. module: ohrms_service_request
+#: model:ir.model.fields,field_description:ohrms_service_request.field_service_execute__activity_type_id
+#: model:ir.model.fields,field_description:ohrms_service_request.field_service_request__activity_type_id
+msgid "Next Activity Type"
+msgstr "下一活动类型"
+
+#. module: ohrms_service_request
+#: model:ir.model.fields,field_description:ohrms_service_request.field_service_execute__message_needaction_counter
+#: model:ir.model.fields,field_description:ohrms_service_request.field_service_request__message_needaction_counter
+msgid "Number of Actions"
+msgstr "行动数量"
+
+#. module: ohrms_service_request
+#: model:ir.model.fields,field_description:ohrms_service_request.field_service_execute__message_has_error_counter
+#: model:ir.model.fields,field_description:ohrms_service_request.field_service_request__message_has_error_counter
+msgid "Number of error"
+msgstr "错误数"
+
+#. module: ohrms_service_request
+#: model:ir.model.fields,help:ohrms_service_request.field_service_execute__message_needaction_counter
+#: model:ir.model.fields,help:ohrms_service_request.field_service_request__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "需要行动消息的数量"
+
+#. module: ohrms_service_request
+#: model:ir.model.fields,help:ohrms_service_request.field_service_execute__message_has_error_counter
+#: model:ir.model.fields,help:ohrms_service_request.field_service_request__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "递送错误的消息数量"
+
+#. module: ohrms_service_request
+#: model:ir.model.fields,help:ohrms_service_request.field_service_execute__message_unread_counter
+#: model:ir.model.fields,help:ohrms_service_request.field_service_request__message_unread_counter
+msgid "Number of unread messages"
+msgstr "未读消息的数量"
+
+#. module: ohrms_service_request
+#: selection:service.request,service_type:0
+msgid "Other"
+msgstr "其他"
+
+#. module: ohrms_service_request
+#: selection:service.execute,activity_state:0
+#: selection:service.request,activity_state:0
+msgid "Overdue"
+msgstr "过期"
+
+#. module: ohrms_service_request
+#: model_terms:ir.ui.view,arch_db:ohrms_service_request.projection_view_pivot
+msgid "Pivot View"
+msgstr "透视视图"
+
+#. module: ohrms_service_request
+#: selection:service.execute,activity_state:0
+#: selection:service.request,activity_state:0
+msgid "Planned"
+msgstr "计划"
+
+#. module: ohrms_service_request
+#: model:ir.model.fields,field_description:ohrms_service_request.field_service_request__service_name
+msgid "Reason For Service"
+msgstr "服务原因"
+
+#. module: ohrms_service_request
+#: model:ir.model.fields,field_description:ohrms_service_request.field_service_request__name
+msgid "Reference"
+msgstr "编号"
+
+#. module: ohrms_service_request
+#: model_terms:ir.ui.view,arch_db:ohrms_service_request.service_request11
+msgid "Reject"
+msgstr "拒绝"
+
+#. module: ohrms_service_request
+#: selection:service.execute,state_execute:0 selection:service.request,state:0
+msgid "Rejected"
+msgstr "拒绝"
+
+#. module: ohrms_service_request
+#: selection:service.request,service_type:0
+msgid "Repair"
+msgstr "修复"
+
+#. module: ohrms_service_request
+#: selection:service.request,service_type:0
+msgid "Replace"
+msgstr "替换"
+
+#. module: ohrms_service_request
+#: model:ir.ui.menu,name:ohrms_service_request.service_report
+msgid "Reporting"
+msgstr "报表"
+
+#. module: ohrms_service_request
+#: model:ir.ui.menu,name:ohrms_service_request.service_requests
+msgid "Request Service"
+msgstr "申请服务"
+
+#. module: ohrms_service_request
+#: selection:service.execute,state_execute:0 selection:service.request,state:0
+msgid "Requested"
+msgstr "请求"
+
+#. module: ohrms_service_request
+#: model:ir.model.fields,field_description:ohrms_service_request.field_service_execute__activity_user_id
+#: model:ir.model.fields,field_description:ohrms_service_request.field_service_request__activity_user_id
+msgid "Responsible User"
+msgstr "责任用户"
+
+#. module: ohrms_service_request
+#: code:addons/ohrms_service_request/models/service.py:66
+#, python-format
+msgid "Select Executer For the Requested Service"
+msgstr "为请求的服务选择执行者"
+
+#. module: ohrms_service_request
+#: model:ir.module.category,name:ohrms_service_request.module_service_execute
+msgid "Service"
+msgstr "服务"
+
+#. module: ohrms_service_request
+#: model:ir.actions.act_window,name:ohrms_service_request.action_view_service_approve
+#: model:ir.ui.menu,name:ohrms_service_request.service_approve
+msgid "Service Approval"
+msgstr "服务审批"
+
+#. module: ohrms_service_request
+#: model:ir.actions.act_window,name:ohrms_service_request.action_view_service_check
+msgid "Service Check"
+msgstr "服务检查"
+
+#. module: ohrms_service_request
+#: model_terms:ir.ui.view,arch_db:ohrms_service_request.service_execute2
+#: model_terms:ir.ui.view,arch_db:ohrms_service_request.view_execute_tree1
+msgid "Service Execute"
+msgstr "服务执行"
+
+#. module: ohrms_service_request
+#: model:ir.model.fields,field_description:ohrms_service_request.field_service_request__service_executer
+#: model:res.groups,name:ohrms_service_request.service_group_executer
+msgid "Service Executer"
+msgstr "服务运行"
+
+#. module: ohrms_service_request
+#: model:ir.ui.menu,name:ohrms_service_request.execute_service
+#: model_terms:ir.ui.view,arch_db:ohrms_service_request.service_execute2
+msgid "Service Execution"
+msgstr "服务执行"
+
+#. module: ohrms_service_request
+#: model:ir.model.fields,field_description:ohrms_service_request.field_service_execute__executer_product
+msgid "Service Item"
+msgstr "服务项目"
+
+#. module: ohrms_service_request
+#: model:ir.ui.menu,name:ohrms_service_request.service_pivot
+msgid "Service Reporting"
+msgstr "服务报告"
+
+#. module: ohrms_service_request
+#: model:ir.actions.act_window,name:ohrms_service_request.action_view_service_requests
+#: model_terms:ir.ui.view,arch_db:ohrms_service_request.service_request11
+#: model_terms:ir.ui.view,arch_db:ohrms_service_request.view_service_tree1
+msgid "Service Request"
+msgstr "服务请求"
+
+#. module: ohrms_service_request
+#: model:ir.model.fields,field_description:ohrms_service_request.field_service_execute__type_service
+msgid "Service Type"
+msgstr "服务类型"
+
+#. module: ohrms_service_request
+#: model:ir.ui.menu,name:ohrms_service_request.service_root
+msgid "Services"
+msgstr "服务"
+
+#. module: ohrms_service_request
+#: model:ir.model.fields,field_description:ohrms_service_request.field_service_request__state
+msgid "State"
+msgstr "状态"
+
+#. module: ohrms_service_request
+#: model:ir.model.fields,field_description:ohrms_service_request.field_service_execute__state_execute
+msgid "State Execute"
+msgstr "执行状态"
+
+#. module: ohrms_service_request
+#: model:ir.model.fields,help:ohrms_service_request.field_service_execute__activity_state
+#: model:ir.model.fields,help:ohrms_service_request.field_service_request__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"基于活动的状态 \n"
+" 逾期：已经超过截止日期 \n"
+" 现今：活动日期是当天 \n"
+" 计划：未来的活动。"
+
+#. module: ohrms_service_request
+#: model_terms:ir.ui.view,arch_db:ohrms_service_request.service_request11
+msgid "Submit"
+msgstr "提交"
+
+#. module: ohrms_service_request
+#: model_terms:ir.ui.view,arch_db:ohrms_service_request.service_request11
+msgid "Title For Service"
+msgstr "服务标题"
+
+#. module: ohrms_service_request
+#: selection:service.execute,activity_state:0
+#: selection:service.request,activity_state:0
+msgid "Today"
+msgstr "今天"
+
+#. module: ohrms_service_request
+#: model:ir.model.fields,field_description:ohrms_service_request.field_service_request__service_type
+msgid "Type Of Service"
+msgstr "服务类型"
+
+#. module: ohrms_service_request
+#: model:ir.model.fields,field_description:ohrms_service_request.field_service_execute__message_unread
+#: model:ir.model.fields,field_description:ohrms_service_request.field_service_request__message_unread
+msgid "Unread Messages"
+msgstr "未读消息"
+
+#. module: ohrms_service_request
+#: model:ir.model.fields,field_description:ohrms_service_request.field_service_execute__message_unread_counter
+#: model:ir.model.fields,field_description:ohrms_service_request.field_service_request__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "未读消息计数器"
+
+#. module: ohrms_service_request
+#: selection:service.request,service_type:0
+msgid "Updation"
+msgstr "更新"
+
+#. module: ohrms_service_request
+#: model:ir.actions.act_window,name:ohrms_service_request.action_view_pivot
+msgid "View Pivot"
+msgstr ""
+
+#. module: ohrms_service_request
+#: model:ir.model.fields,field_description:ohrms_service_request.field_service_execute__website_message_ids
+#: model:ir.model.fields,field_description:ohrms_service_request.field_service_request__website_message_ids
+msgid "Website Messages"
+msgstr "网站消息"
+
+#. module: ohrms_service_request
+#: model:ir.model.fields,help:ohrms_service_request.field_service_execute__website_message_ids
+#: model:ir.model.fields,help:ohrms_service_request.field_service_request__website_message_ids
+msgid "Website communication history"
+msgstr "网站沟通记录"
+
+#. module: ohrms_service_request
+#: model:ir.model.fields,field_description:ohrms_service_request.field_service_request__read_only
+msgid "check field"
+msgstr "检查字段"
+
+#. module: ohrms_service_request
+#: model:ir.model.fields,field_description:ohrms_service_request.field_service_request__service_date
+msgid "date"
+msgstr "日期"
+
+#. module: ohrms_service_request
+#: model:ir.model.fields,field_description:ohrms_service_request.field_service_request__internal_note
+msgid "internal notes"
+msgstr "内部注释"
+
+#. module: ohrms_service_request
+#: model:ir.model,name:ohrms_service_request.model_service_execute
+msgid "issue"
+msgstr "问题"
+
+#. module: ohrms_service_request
+#: model:ir.model,name:ohrms_service_request.model_service_request
+msgid "service_name"
+msgstr ""
+
+#. module: ohrms_service_request
+#: model:ir.model.fields,field_description:ohrms_service_request.field_service_execute__test
+msgid "test"
+msgstr ""
+
+#. module: ohrms_service_request
+#: model:ir.model.fields,field_description:ohrms_service_request.field_service_request__tester
+msgid "tester"
+msgstr ""

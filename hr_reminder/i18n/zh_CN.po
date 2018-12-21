@@ -1,0 +1,179 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* hr_reminder
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-21 02:38+0000\n"
+"PO-Revision-Date: 2018-12-21 10:40+0800\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: zh_CN\n"
+"X-Generator: Poedit 2.2\n"
+
+#. module: hr_reminder
+#: model:ir.model.fields,field_description:hr_reminder.field_hr_reminder__active
+msgid "Active"
+msgstr "有效"
+
+#. module: hr_reminder
+#: model_terms:ir.actions.act_window,help:hr_reminder.action_hr_reminder
+msgid "Click here to create new reminder."
+msgstr "点击这里创建新的提醒。"
+
+#. module: hr_reminder
+#: model:ir.model.fields,field_description:hr_reminder.field_hr_reminder__company_id
+msgid "Company"
+msgstr "公司"
+
+#. module: hr_reminder
+#: model:ir.model.fields,field_description:hr_reminder.field_hr_reminder__create_uid
+msgid "Created by"
+msgstr "创建人"
+
+#. module: hr_reminder
+#: model:ir.model.fields,field_description:hr_reminder.field_hr_reminder__create_date
+msgid "Created on"
+msgstr "创建时间"
+
+#. module: hr_reminder
+#: model:ir.model.fields,field_description:hr_reminder.field_hr_reminder__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: hr_reminder
+#: model:ir.model.fields,field_description:hr_reminder.field_hr_reminder__date_to
+msgid "End Date"
+msgstr "结束日期"
+
+#. module: hr_reminder
+#: model:ir.model.fields,field_description:hr_reminder.field_hr_reminder__model_field
+msgid "Field"
+msgstr "字段"
+
+#. module: hr_reminder
+#: model_terms:ir.ui.view,arch_db:hr_reminder.hr_reminder_form_view
+msgid "HR Reminder"
+msgstr "HR提醒"
+
+#. module: hr_reminder
+#: model:ir.ui.menu,name:hr_reminder.hr_reminder_menu
+msgid "Hr Reminder"
+msgstr "HR提醒"
+
+#. module: hr_reminder
+#: model:ir.model.fields,field_description:hr_reminder.field_hr_reminder__id
+msgid "ID"
+msgstr "ID"
+
+#. module: hr_reminder
+#: model:ir.model.fields,field_description:hr_reminder.field_hr_reminder____last_update
+msgid "Last Modified on"
+msgstr "最后修改日"
+
+#. module: hr_reminder
+#: model:ir.model.fields,field_description:hr_reminder.field_hr_reminder__write_uid
+msgid "Last Updated by"
+msgstr "最后更新者"
+
+#. module: hr_reminder
+#: model:ir.model.fields,field_description:hr_reminder.field_hr_reminder__write_date
+msgid "Last Updated on"
+msgstr "最后更新时间"
+
+#. module: hr_reminder
+#: model:ir.model.fields,field_description:hr_reminder.field_hr_reminder__model_name
+msgid "Model"
+msgstr "模型"
+
+#. module: hr_reminder
+#: model_terms:ir.ui.view,arch_db:hr_reminder.hr_reminder_tree_view
+msgid "Pop-Up Reminder"
+msgstr "弹出提醒"
+
+#. module: hr_reminder
+#: model:ir.ui.menu,name:hr_reminder.reminder_menu
+msgid "Reminder"
+msgstr "提醒"
+
+#. module: hr_reminder
+#: model:ir.model.fields,field_description:hr_reminder.field_hr_reminder__reminder_active
+msgid "Reminder Active"
+msgstr "提醒有效"
+
+#. module: hr_reminder
+#: model:ir.model.fields,field_description:hr_reminder.field_hr_reminder__expiry_date
+msgid "Reminder Expiry Date"
+msgstr "提醒到期日期"
+
+#. module: hr_reminder
+#: model_terms:ir.ui.view,arch_db:hr_reminder.hr_reminder_form_view
+msgid "Reminder Title..."
+msgstr "提醒标题..."
+
+#. module: hr_reminder
+#: model:ir.model.fields,field_description:hr_reminder.field_hr_reminder__days_before
+msgid "Reminder before"
+msgstr "提醒之前"
+
+#. module: hr_reminder
+#: model:ir.actions.server,name:hr_reminder.ir_cron_scheduler_reminder_action_ir_actions_server
+#: model:ir.cron,cron_name:hr_reminder.ir_cron_scheduler_reminder_action
+#: model:ir.cron,name:hr_reminder.ir_cron_scheduler_reminder_action
+msgid "Reminder scheduler"
+msgstr "提醒调度程序"
+
+#. module: hr_reminder
+#. openerp-web
+#: code:addons/hr_reminder/static/src/xml/reminder_topbar.xml:7
+#: code:addons/hr_reminder/static/src/xml/reminder_topbar.xml:13
+#: model:ir.actions.act_window,name:hr_reminder.action_hr_reminder
+#, python-format
+msgid "Reminders"
+msgstr "提醒"
+
+#. module: hr_reminder
+#: model:ir.model.fields,field_description:hr_reminder.field_hr_reminder__search_by
+msgid "Search By"
+msgstr "搜索方式"
+
+#. module: hr_reminder
+#: model:ir.model.fields,field_description:hr_reminder.field_hr_reminder__date_set
+msgid "Select Date"
+msgstr "选择日期"
+
+#. module: hr_reminder
+#: selection:hr.reminder,search_by:0
+msgid "Set Date"
+msgstr "设置日期"
+
+#. module: hr_reminder
+#: selection:hr.reminder,search_by:0
+msgid "Set Period"
+msgstr "设定周期"
+
+#. module: hr_reminder
+#: model:ir.model.fields,field_description:hr_reminder.field_hr_reminder__date_from
+msgid "Start Date"
+msgstr "开始日期"
+
+#. module: hr_reminder
+#: model:ir.model.fields,field_description:hr_reminder.field_hr_reminder__name
+msgid "Title"
+msgstr "标题"
+
+#. module: hr_reminder
+#: selection:hr.reminder,search_by:0
+msgid "Today"
+msgstr "今天"
+
+#. module: hr_reminder
+#: model:ir.model,name:hr_reminder.model_hr_reminder
+msgid "hr.reminder"
+msgstr ""
